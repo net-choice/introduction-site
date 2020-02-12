@@ -15,3 +15,7 @@ The introduction site of NetChoice
         - Preregister
             - Apply
             - Schedule
+            
+## 참고한 디자인
+
+[30 BEST MEET THE TEAM PAGES EXAMPLES AND TRENDS](https://amasty.com/blog/30-best-meet-the-team-pages-examples-and-trends/)
