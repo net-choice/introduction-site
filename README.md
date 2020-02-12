@@ -1,2 +1,2 @@
 # introduction-site
-The introduction site of net-choice
+The introduction site of NetChoice
