@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url(/image/team-background.png);
+    background-image: url(image/team-background.png);
     background-size: 100%;
 }
 .team-introduction{
