@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/image/team-background.png);
+    background-size: 100%;
+}
+.team-introduction{
+    text-align: left;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    margin-left: 12.7%;
+    margin-top: 2%;
+    float: left;
+}
+.team-title{
+    text-align: left;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+}
+.team-content{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: normal;
+}
+.tema-profile{
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: 12.7%;
+    margin-top: 20px;
+}
+.team-profile-title{
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+}
+.profile{
+    width: 350px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+    border: 0;
+}
+.profile-image{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: center;
+}
+.profile-content{
+    text-align: center;
+}
+.name{
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: normal;
+}
+.team{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.profile-info{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #ffffff;
+}
+.profile-right{
+    float: right;
+    text-align: center;
+}
