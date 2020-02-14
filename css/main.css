@@ -3,7 +3,7 @@
     padding: 0;
 }
 html{
-    background-image: url(image/main-background.png);
+    background-image: url(../image/main-background.png);
     background-size: 100%;
 }
 .main-div{
