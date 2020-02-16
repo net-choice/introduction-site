@@ -4,10 +4,10 @@
 }
 body{
     background-image: url(../image/team-background.png);
-    background-size: 105%;
+    background-size: cover;
 }
 .team-introduction{
-    text-align: left;
+    text-align: center  ;
     width: auto;
     height: auto;
     color: #ffffff;
@@ -25,6 +25,7 @@ body{
     color: #ffffff;
     font-size: 20px;
     font-weight: normal;
+    text-align: left;
 }
 .tema-profile{
     width: auto;
@@ -37,23 +38,27 @@ body{
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
+    text-align: left;
 }
 .profile{
-    width: 350px;
+    width: 370px;
+    height: 400px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
     float: left;
+    vertical-align: initial;
     border: 0;
+    box-sizing: border-box;
+    float: left;
 }
 .profile-image{
     text-align: center;
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    text-align: center;
 }
 .profile-content{
     text-align: center;
