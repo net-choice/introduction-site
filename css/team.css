@@ -90,6 +90,10 @@
 } 
 /* mobile */
 @media (max-width: 768px){
+    body{
+        background-image: url(../image/team-mobile-background.png);
+        background-size: 105%;
+    }
     .main-div{
         width: 100%;
         height: 100%;
@@ -106,13 +110,15 @@
         text-align: left;
         font-size: 28px;
         font-style: normal;
-        font-weight: normal;   
+        font-weight: normal; 
+        color: #ffffff;  
     }
     .team-content{
         text-align: left;
         font-size: 18px;
         font-weight: normal;
         font-style: normal;
+        color: #ffffff;
     }
     .team-profile{
         width: auto;
@@ -125,6 +131,7 @@
         font-size: 28px;
         font-style: normal;
         font-weight: normal;
+        color: #ffffff;
     }
     .profile{
         width: 350px;
@@ -142,5 +149,18 @@
     }
     .name{
         text-align: center;
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: normal;
+    }
+    .team{
+        text-align: center;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .profile-info{
+        text-align: center;
+        color: #ffffff;
     }
 }
