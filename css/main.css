@@ -41,8 +41,12 @@
         margin: 0;
         padding: 0;
     }
+    body{
+        background-image: url(../image/mobile-background.png);
+        background-size: 100%;
+    }
     .main-greeting{
-        color: #000000;
+        color: #ffffff;
         font-size: 25px;
         font-weight: normal;
         font-style: normal;
