@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>NetChoice Sign UP</title>
+    <link rel="stylesheet" type="text/css" href="/css/signin.css">
+    <link rel="stylesheet" href="/css/plus.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="input-div">
+            <input type="text" class="input-first-name" placeholder="성" maxlength="2" oninput="numberMaxLength(this);">
+            <input type="text" class="input-last-name" placeholder="이름" maxlength="3" oninput="numberMaxLength(this);">
+            <br>
+            <input type="email" class="input-email" minlength="8" maxlength="15" placeholder="Email">
+            <br>
+            <input type="password" class="input-password" minlength="8" maxlength="15" placeholder="Password">
+            <br>
+            <input type="password" class="input-password" minlength="8" maxlength="15" placeholder="Password">
+            <p class="password">패스워드를 한 번 더 입력 해 주세요.</p>
+            <input class="input-username" type="text" placeholder="UserName" maxlenght="15" minlength="8">
+            <p class="username">8~15자리 내에서만 입력 해 주세요.</p>
+            <br>
+            <!-- BackEnd Submit Change-->
+            <button type="submit" class="button-submit">제출</button>
+        </div>
+    </div>
+</body>
+<script>
+    function numberMaxLength(e){
+        if(e.value.length > e.maxLength){
+            e.value = e.value.slice(0, e.maxLength);
+        }
+    }
+</script>
+</html>
