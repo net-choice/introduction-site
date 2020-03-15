@@ -1,0 +1,26 @@
+.giude{
+    width: 100%;
+    height: 775px;
+    background-image: url('../image/background.png');
+    background-size: 105%;
+}
+.giude-item{
+    transform: translate(13%,90%);
+    width: 100%;
+    height: auto;
+}
+.item-title{
+    color: #ffffff;
+    text-align: left;
+    font-weight: normal;
+    font-size: auto;
+    font-size: 33px;
+}
+.item-info{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 3px;
+}
