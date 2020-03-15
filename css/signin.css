@@ -1,0 +1,143 @@
+html{
+    background-image: url(/image/background.png);
+    background-size: 105%;
+}
+.main-div{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.input-div{
+    width: 330px;
+    height: 350px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 15% auto;
+    border-radius: 15%;
+}
+.input-first-name{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid pink;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.input-first-name::placeholder{
+    color: #000000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+.input-last-name{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    border-radius: 20px;
+    border: 1px solid pink;
+    text-align: center;
+    margin-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.input-last-name::placeholder{
+    color: #000000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+.input-email{
+    width: 180px;
+    height: 30px;
+    color: #000000;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 20px;
+    border: 1px solid pink;
+    padding-left: 8px;
+}
+.input-email::placeholder{
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+}
+.input-password{
+    width: 180px;
+    height: 30px;
+    color: #000000;
+    margin-top: 5px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    border-radius: 20px;
+    border: 1px solid pink;
+    padding-left: 8px;
+}
+.input-password::placeholder{
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+}
+.input-username{
+    width: 180px;
+    height: 30px;
+    color: #000000;
+    text-align: left;
+    border: 1px solid pink;
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    margin-top: 8px;
+}
+.input-username::placeholder{
+    color: #000000;
+    text-align: left;
+}
+.button-submit{
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: pink;
+    border: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    margint-top: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.password{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    padding-top: 5px;
+    text-align: center;
+}
+.username{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    padding-top: 5px;
+}
