@@ -14,7 +14,7 @@
                 <form>
                     <input type="email" placeholder="Email" class="input-email" id="email" name="email">
                     <br>
-                    <input type="password" placeholder="Password" class="input-password">
+                    <input type="password" placeholder="Password" class="input-password" id="password">
                     <p class="signin"><a class="link" href="./signin.html">회원가입</a></p>
                     <input type="submit" value="Login" class="login-button">
                 </form>
@@ -22,16 +22,4 @@
         </div>
     </div>
 </body>
-<script type="text/javascript">
-    function email(){
-        alert(document.getElementById('email').value);
-        var email = document.getElementById('email').value;
-        var exptext = /^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
-        if(exptext.test(email) === false){
-            alert('메일 형식에 맞지 않습니다. 다시 시도하세요.');
-            document.addjoin.email.focus();
-            return false;
-        }
-    }
-</script>
 </html>
