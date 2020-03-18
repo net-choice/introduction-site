@@ -8,7 +8,7 @@ html{
     text-align: center;
 }
 .input-div{
-    width: 330px;
+    width: 400px;
     height: 350px;
     text-align: center;
     background-color: #ffffff;
@@ -16,7 +16,7 @@ html{
     border-radius: 15%;
 }
 .input-first-name{
-    width: 80px;
+    width: 100px;
     height: 30px;
     font-size: 20px;
     font-style: normal;
@@ -29,7 +29,7 @@ html{
     padding-bottom: 1px;
 }
 .input-first-name::placeholder{
-    color: #000000;
+    color: gray;
     font-size: 20px;
     font-style: normal;
     font-weight: normal;
@@ -44,19 +44,19 @@ html{
     border-radius: 20px;
     border: 1px solid pink;
     text-align: center;
-    margin-left: 5px;
+    margin-left: 3px;
     padding-top: 1px;
     padding-bottom: 1px;
 }
 .input-last-name::placeholder{
-    color: #000000;
+    color: gray;
     font-size: 20px;
     font-style: normal;
     font-weight: normal;
     text-align: center;
 }
 .input-email{
-    width: 180px;
+    width: 200px;
     height: 30px;
     color: #000000;
     margin-top: 5px;
@@ -68,13 +68,13 @@ html{
     padding-left: 8px;
 }
 .input-email::placeholder{
-    color: #000000;
+    color: gray;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
 }
 .input-password{
-    width: 180px;
+    width: 200px;
     height: 30px;
     color: #000000;
     margin-top: 5px;
@@ -86,19 +86,19 @@ html{
     padding-left: 8px;
 }
 .input-password::placeholder{
-    color: #000000;
+    color: gray;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
 }
 .input-username{
-    width: 180px;
+    width: 200px;
     height: 30px;
     color: #000000;
     text-align: left;
     border: 1px solid pink;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: normal;
     padding-top: 1px;
@@ -107,11 +107,17 @@ html{
     margin-top: 8px;
 }
 .input-username::placeholder{
-    color: #000000;
+    color: gray;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
     text-align: left;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 5px;
 }
 .button-submit{
-    width: 180px;
+    width: 200px;
     height: 30px;
     border-radius: 20px;
     background-color: pink;
