@@ -9,8 +9,8 @@
 <body>
     <div class="main-div">
         <div class="input-div">
-            <input type="text" class="input-first-name" placeholder="성" maxlength="2" oninput="numberMaxLength(this);">
-            <input type="text" class="input-last-name" placeholder="이름" maxlength="3" oninput="numberMaxLength(this);">
+            <input type="text" class="input-first-name" placeholder="성" maxlength="2" minlength="1">
+            <input type="text" class="input-last-name" placeholder="이름" maxlength="3" minlength="1">
             <br>
             <input type="email" class="input-email" minlength="8" maxlength="15" placeholder="Email">
             <br>
@@ -27,10 +27,6 @@
     </div>
 </body>
 <script>
-    function numberMaxLength(e){
-        if(e.value.length > e.maxLength){
-            e.value = e.value.slice(0, e.maxLength);
-        }
-    }
+
 </script>
 </html>
