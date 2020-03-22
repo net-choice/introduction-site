@@ -22,3 +22,6 @@ Email: hyun.sang@parkhyunsang.com
 ## Reference
 
 [30 BEST MEET THE TEAM PAGES EXAMPLES AND TRENDS](https://amasty.com/blog/30-best-meet-the-team-pages-examples-and-trends/)
+
+## Fonts
+[Gmarket Sans M](https://noonnu.cc/font_page/366)
